@@ -19,10 +19,10 @@ The `iframeCommunication` library allows for easy communication between your mai
 2. **Use the Library in Your JavaScript File**   
    
    ```javascript
-    import IframeCommunication from '@friends-casino-tech/iframecommunication';
+    import IframeCommunication from '@streamplay-dev/iframecommunication';
 
     document.addEventListener('DOMContentLoaded', () => {
-       const url = 'https://friends.casino';
+       const url = 'https://streamplay.dev';
        const iframe = document.getElementById('myIframe');
        const iframeCommunication = new IframeCommunication('#myIframe', `${url}${window.location.pathname}`, username);
        iframeCommunication.init();
@@ -38,7 +38,7 @@ The `iframeCommunication` library allows for easy communication between your mai
 
 1. **Add the Script Tag to Your HTML**
    ```html
-    <script src="https://unpkg.com/@friends-casino-tech/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
+    <script src="https://unpkg.com/@streamplay-dev/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
    ```
    
    ```html
@@ -48,12 +48,12 @@ The `iframeCommunication` library allows for easy communication between your mai
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Iframe Communication Example</title>
-        <script src="https://unpkg.com/@friends-casino-tech/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
+        <script src="https://unpkg.com/@streamplay-dev/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
     </head>
     <body>
         <iframe
             id="myIframe"
-            src="https://friends.casino"
+            src="https://streamplay.dev"
             width="100%"
             height="100%"
             allow="camera; microphone; clipboard-write; clipboard-read; compute-pressure; geolocation"
@@ -61,7 +61,7 @@ The `iframeCommunication` library allows for easy communication between your mai
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const username = "put your username here" //replace this string with your username
-                const url = 'https://friends.casino';
+                const url = 'https://streamplay.dev';
                 const dynamicSrc = `${url}${window.location.pathname}`;
                 const iframe = document.getElementById('myIframe');
                 iframe.src = dynamicSrc;
