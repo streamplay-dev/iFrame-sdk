@@ -129,7 +129,7 @@ The `iframeCommunication` library allows for easy communication between your mai
 
 For any questions or support, please contact us at:
 
-- **Email:** tech@friends.casino
+- **Email:** tech@streamplay.dev
 - **Website:** [friends.casino](https://friends.casino)
 
 Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
