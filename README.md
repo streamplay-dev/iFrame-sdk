@@ -76,6 +76,55 @@ The `iframeCommunication` library allows for easy communication between your mai
     </html>
    ```
    
+### Example how to toggle video chat
+```html
+   <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <style>
+         #mainContainer {
+            width: 80%;
+            height: 100%;
+            transition: width 0.3s;
+            position: relative;
+         }
+         #toggleButton {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            z-index: 1000;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+         }
+      </style>
+      <script src="https://unpkg.com/@friends-casino-tech/iframecommunication@0.9.2/dist/iframeCommunication.min.js"></script>
+   </head>
+    <body>
+       <button id="toggleButton"><i class="fas fa-bars"></i></button>
+       <div id="mainContainer">
+          ...
+       </div>
+    </body>
+```
+`javascript`
+
+```javascript
+   const mainContainer = document.getElementById('mainContainer');
+   const toggleButton = document.getElementById('toggleButton');
+   toggleButton.addEventListener('click', () => {
+      iframe.classList.toggle('collapsed');
+   
+      if (iframe.classList.contains('collapsed')) {
+         mainContainer.style.width = '100%';
+   
+      } else {
+         mainContainer.style.width = '80%';
+      }
+   });
+```
+   
 ## Additional Info
 
 For any questions or support, please contact us at:
