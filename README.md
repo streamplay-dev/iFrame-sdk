@@ -13,7 +13,7 @@ The `iframeCommunication` library allows for easy communication between your mai
 1. **Install the Library**
 
    ```bash
-   npm install @friends-casino-tech/iframecommunication
+   npm install @streamplay-dev/iframecommunication
    ```
    
 2. **Use the Library in Your JavaScript File**   
@@ -22,7 +22,7 @@ The `iframeCommunication` library allows for easy communication between your mai
     import IframeCommunication from '@streamplay-dev/iframecommunication';
 
     document.addEventListener('DOMContentLoaded', () => {
-       const url = 'https://streamplay.dev';
+       const url = 'https://video.streamplay.dev"';
        const iframe = document.getElementById('myIframe');
        const iframeCommunication = new IframeCommunication('#myIframe', `${url}${window.location.pathname}`, username);
        iframeCommunication.init();
@@ -53,7 +53,7 @@ The `iframeCommunication` library allows for easy communication between your mai
     <body>
         <iframe
             id="myIframe"
-            src="https://streamplay.dev"
+            src="https://video.streamplay.dev"
             width="100%"
             height="100%"
             allow="camera; microphone; clipboard-write; clipboard-read; compute-pressure; geolocation"
@@ -61,7 +61,7 @@ The `iframeCommunication` library allows for easy communication between your mai
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const username = "put your username here" //replace this string with your username
-                const url = 'https://streamplay.dev';
+                const url = 'https://video.streamplay.dev"';
                 const dynamicSrc = `${url}${window.location.pathname}`;
                 const iframe = document.getElementById('myIframe');
                 iframe.src = dynamicSrc;
@@ -99,7 +99,7 @@ The `iframeCommunication` library allows for easy communication between your mai
             color: white;
          }
       </style>
-      <script src="https://unpkg.com/@friends-casino-tech/iframecommunication@0.9.2/dist/iframeCommunication.min.js"></script>
+      <script src="https://unpkg.com/@streamplay-dev/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
    </head>
     <body>
        <button id="toggleButton"><i class="fas fa-bars"></i></button>
@@ -133,7 +133,3 @@ For any questions or support, please contact us at:
 - **Website:** [friends.casino](https://friends.casino)
 
 Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
-
-
-   
-
