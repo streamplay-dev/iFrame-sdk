@@ -1,3 +1,49 @@
+# Integration with frieds.casino using iFrame 
+
+```html
+   <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iframe Communication Example</title>
+        <script src="https://unpkg.com/@streamplay-dev/iframecommunication@0.9.0/dist/iframeCommunication.min.js"></script>
+    </head>
+    <body>
+        <iframe
+            id="myIframe"
+            src="https://video.streamplay.dev"
+            width="100%"
+            height="100%"
+            allow="camera; microphone; clipboard-write; clipboard-read; compute-pressure; geolocation"
+        ></iframe>
+        <script>
+            const username =  "put your username here" //replace this string with your username
+            console.log(username);
+            const baseUrl = 'https://video.streamplay.dev';
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            const url = encodeURIComponent(window.location.href)
+            const dynamicSrc = `${baseUrl}${window.location.pathname}?username=${encodeURIComponent(username)}&width=${width}&height=${height}&url=${url}`;
+            const iframe = document.getElementById('video');
+            iframe.src = dynamicSrc;
+        </script>
+    </body>
+    </html>
+   ```
+
+## Additional Info
+
+For any questions or support, please contact us at:
+
+- **Email:** tech@streamplay.dev
+- **Website:** [friends.casino](https://friends.casino)
+
+Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
+
+
+# Section below is depecated
+
 # Iframe Communication Example
 
 This project demonstrates how to use the `iframeCommunication` library for seamless communication between your main application and iframes using vanilla JavaScript.
@@ -125,11 +171,3 @@ The `iframeCommunication` library allows for easy communication between your mai
    });
 ```
    
-## Additional Info
-
-For any questions or support, please contact us at:
-
-- **Email:** tech@streamplay.dev
-- **Website:** [friends.casino](https://friends.casino)
-
-Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
