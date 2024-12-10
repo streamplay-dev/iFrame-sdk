@@ -19,7 +19,6 @@
         ></iframe>
         <script>
             const username =  "put your username here" //replace this string with your username
-            console.log(username);
             const baseUrl = 'https://video.streamplay.dev';
             const width = window.innerWidth;
             const height = window.innerHeight;
