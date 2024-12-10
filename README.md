@@ -41,7 +41,7 @@ For any questions or support, please contact us at:
 Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
 
 
-# Section below is depecated
+# Section below is deprecated
 
 # Iframe Communication Example
 
