@@ -14,7 +14,7 @@
             src="https://video.streamplay.dev"
             width="100%"
             height="100%"
-            allow="camera; microphone; clipboard-write; clipboard-read; compute-pressure; geolocation"
+            allow="camera; microphone; clipboard-write; clipboard-read; compute-pressure; geolocation; display-capture"
         ></iframe>
         <script>
             const username =  "put your username here" //replace this string with your username
@@ -29,6 +29,8 @@
     </body>
     </html>
    ```
+
+
 
 ## Additional Info
 
