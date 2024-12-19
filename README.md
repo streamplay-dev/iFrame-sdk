@@ -33,7 +33,7 @@
 ## Url mapping
 In our integration, you need to map our URLs so that multiple players can play their own games and have conversions on the same time.
 
-For example, Player A is playing Game 1 and has created Room 1. Player A shares this link http://your_domain/friends_casino/game1/room1?player1 with Player B. Player B opens the link and is redirected to the main page http://your_domain/friends_casino/room1 Then, Player B chooses Game 2 and goes to and go to http://your_domain/friends_casino/game2/room1?player2
+For example, Player A is playing Game 1 and has created Room 1. Player A shares this link http://your_domain/friends_casino/game1/room1?player1 with Player B. Player B opens the link and is redirected to the main page http://your_domain/friends_casino/room1 Then, Player B chooses Game 2 and goes to http://your_domain/friends_casino/game2/room1?player2
 
 ## Additional Info
 
