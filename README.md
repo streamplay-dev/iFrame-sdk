@@ -40,7 +40,6 @@ For example, Player A is playing Game 1 and has created Room 1. Player A shares 
 For any questions or support, please contact us at:
 
 - **Email:** tech@streamplay.dev
-- **Website:** [friends.casino](https://friends.casino)
 
 Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
 ***
