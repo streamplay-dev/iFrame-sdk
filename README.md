@@ -39,7 +39,11 @@ For any questions or support, please contact us at:
 - **Website:** [friends.casino](https://friends.casino)
 
 Feel free to reach out for any inquiries or feedback regarding the iframeCommunication library!
-
+***
+***
+***
+***
+***
 
 # Section below is deprecated
 
